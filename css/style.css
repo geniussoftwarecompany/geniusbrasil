@@ -781,7 +781,7 @@ h3 {
 
 /* line 32, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a.active {
-  color: #5DB2FF;
+  color: #224488;
 }
 
 @media (max-width: 767px) {
@@ -881,7 +881,7 @@ h3 {
 /* line 16, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
 .header-area .main-header-area {
   padding: 20px 200px;
-  background: #2F99FA;
+  background: #ffffff;
   background: transparent;
 }
 
@@ -897,7 +897,7 @@ h3 {
   /* line 16, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 10px 15px;
-    background: #2f99fa;
+    background: #ffffff;
   }
 }
 
@@ -1077,7 +1077,7 @@ h3 {
 .header-area .main-header-area .main-menu ul li {
   display: inline-block;
   position: relative;
-  margin: 0 10px;
+  margin: 0 8px;
 }
 
 /* line 157, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
@@ -1089,7 +1089,7 @@ h3 {
   display: inline-block;
   padding: 0px 0px 0px 0px;
   font-family: "Poppins", sans-serif;
-  position: relative;
+  position: static;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
