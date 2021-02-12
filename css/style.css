@@ -3021,15 +3021,15 @@ h3 {
 }
 
 /* line 10, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_bradcam.scss */
-.breadcam_bg_4 {
-  background-image: url(../img/banner/bradcam_4.png);
+.bradcam_bg_4 {
+  background-image: url(../img/banner/product.png);
 }
 
 /* line 13, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_bradcam.scss */
 .bradcam_area {
   background-size: cover;
   background-position: bottom;
-  padding: 190px 0;
+  padding: 150px 0;
   background-repeat: no-repeat;
   position: relative;
   z-index: 0;
