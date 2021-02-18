@@ -6,51 +6,36 @@
   <link rel="stylesheet" href="css/stylecontact.css">
   <link rel="stylesheet" href="css/blue.css">
   <link rel="sortcut icon" href="favicon.ico" type="image/x-icon" />
-  <link rel="sortcut icon" href="img/flavicon.png" type="image/png" />
+  <link rel="sortcut icon" href="img/flavicon.png" type="image/png" />  <div class="login-page">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+	<div class="form">
+		<p>Abertura de Atendimento</p>
+	  <form class="login-form">
+		<label for="cars">Selecione o assunto:</label>
+
+		<select name="cars" id="cars">
+		  <option value="Selecione">Selecione</option>
+		  <option value="comercial">Contato comercial - visitas, orçamentos e propostas</option>
+		  <option value="financeiro">Assuntos financeiros</option>
+		  <option value="suporte">Suporte tecnico</option>
+		  <option value="desenvolvimento">Solicitação de desenvolvimento</option>
+		  <option value="treinamento">Treinamentos e consultorias</option>
+		  <option value="duvidas">Duvidas sobre o sistema</option>
+		  <option value="outros">Elogios e reclamações</option>
+		</select>
+		<input type="text" placeholder="Numero de Telefone"/>
+		<input type="email" placeholder="Email"/>
+		<input type="text" placeholder="Nome da empresa"/>
+		<input type="mensage" placeholder="Mensagem"/>
+		<button>Enviar Contato</button>
+	  </form>
+	</div>
+  </div>
 </head>
 
 <body>
-<div class="container" id="container">
-	<div class="form-container sign-up-container">
-		<form action="#">
-			<h1>Experimente a Genius Web</h1><br>
-			<span>O teste grátis do sistema de gestão empresárial mais completo do mercado!</span>
-			<input type="email" placeholder="Email" />
-			<input type="text" class="form-control phone-ddd-mask" placeholder="Ex.: (00) 0000-0000">
-			<a>Enviar</a>
-		</form>
-	</div>
-	<div class="form-container sign-in-container">
-		<form action="#">
-			<h1>Solicite a <br> Genius Poynt</h1><br>
-			<span>Preencha os campos abaixo</span>
-			<input type="email" placeholder="Email" />
-			<input type="text" class="form-control phone-ddd-mask" placeholder="Ex.: (00) 0000-0000">
-			<h5>Entraremos em contato o mais breve possível! </h5>
-			<a>Enviar</a>
-		</form>
-	</div>
-	<div class="overlay-container">
-		<div class="overlay">
-			<div class="overlay-panel overlay-left">
-				<h1>Interessado na Genius Poynt?</h1>
-				<p>Solicite agora mesmo o aplicativo mais completo do mercado!</p>
-					<li>Gere relatórios</li><br>
-					<li>Acompanhe transações</li><br>
-					<li>Tenha conexão com a genius web</li><br>
-				<a class="ghost" id="signIn">Clique aqui!</a>
-			</div>
-			<div class="overlay-panel overlay-right">
-				<h1>Interessado na Genius Web?</h1>
-				<p>Solicite agora mesmo o teste grátis do sistema de gestão empresárial mais completo do mercado!</p>
-				<li>Relatórios atualizados</li><br>
-				<li>Emissão de nota fiscal eletrônica</li><br>
-				<li>A qualquer hora em qualquer lugar!</li><br>
-				<a class="ghost" id="signUp">CLique aqui!</a>
-			</div>
-		</div>
-	</div>
-</div>
+
 
 <div class="waves"><br><br><a href="index.html">Voltar</a>
 	<svg width="100%" height="230px" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -115,6 +100,7 @@
 		</path>
 	</svg>
 </div>
-<script src="js/scriptcontact.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script  src="js/scripts.js"></script>
 </body>
 </html>
