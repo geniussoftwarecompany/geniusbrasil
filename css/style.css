@@ -1422,7 +1422,7 @@ h3 {
 .slider_area .single_slider .slider_text h3 {
   color: #FFF;
   font-family: "Poppins", sans-serif;
-  font-size: 30px;
+  font-size: 12px;
   letter-spacing: 1px;
   font-weight: 100;
   line-height: 40px;
@@ -1457,7 +1457,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 44, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
-    font-size: 30px;
+    font-size: 12px;
     line-height: 35px;
   }
 }
@@ -1465,7 +1465,7 @@ h3 {
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 44, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
-    font-size: 30px;
+    font-size: 12px;
     line-height: 35px;
   }
 }
@@ -1473,7 +1473,7 @@ h3 {
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 44, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
-    font-size: 45px;
+    font-size: 12px;
     letter-spacing: 1px;
     line-height: 50px;
   }
